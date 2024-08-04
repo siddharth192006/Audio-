@@ -1,0 +1,99 @@
+/* styles.css */
+.player-container {
+    width: 800px;
+    height: 600px;
+    margin: 40px auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.player-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.player-body {
+    padding: 20px;
+}
+
+.audio-container {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#audio {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+
+.controls-container {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.control-button {
+    width: 20%;
+    height: 30px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.volume-container {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#volume-slider {
+    width: 100%;
+    height: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+
+#volume-value {
+    font-size: 16px;
+    color: #333;
+}
+
+.progress-container {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#progress-bar {
+    width: 100%;
+    height: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+
+#progress-value {
+    font-size: 16px;
+    color: #333;
+}
